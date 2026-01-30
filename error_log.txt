@@ -1,0 +1,17 @@
+2026-01-30 16:40:49,645 - ERROR - ZeroDivisionError occurred
+Traceback (most recent call last):
+  File "c:\Users\devik\OneDrive\Desktop\python_task9\error_handling.py", line 21, in divide_numbers
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
+2026-01-30 16:40:49,701 - ERROR - Negative numbers are not allowed
+Traceback (most recent call last):
+  File "c:\Users\devik\OneDrive\Desktop\python_task9\error_handling.py", line 19, in divide_numbers
+    raise NegativeNumberError("Negative numbers are not allowed")
+NegativeNumberError: Negative numbers are not allowed
+2026-01-30 16:40:49,704 - ERROR - TypeError occurred
+Traceback (most recent call last):
+  File "c:\Users\devik\OneDrive\Desktop\python_task9\error_handling.py", line 18, in divide_numbers
+    if a < 0 or b < 0:
+                ^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
